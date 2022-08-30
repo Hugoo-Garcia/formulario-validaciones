@@ -1,0 +1,96 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	background: #f5f4f4;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0px 20vh;
+}
+
+.container {
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 19px 20px 8px -9px rgba(0, 0, 0, 0.2);
+	width: 400px;
+	max-width: 400px;
+	min-width: 300px;
+}
+
+.header {
+	padding: 30px 20px;
+}
+
+.color-alt {
+	color: #ecf02e;
+}
+
+#formulario {
+	padding: 5px 30px;
+}
+
+.form-control {
+	margin-bottom: 20px;
+}
+
+.form-control label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.form-control input {
+	display: block;
+	width: 100%;
+	padding: 10px 20px;
+	background: #eee;
+	border: none;
+	border-radius: 5px;
+}
+
+.form-control,
+input:focus {
+	outline: none;
+}
+
+.form-control p {
+	font-size: 13px;
+	position: absolute;
+	text-align: right;
+	visibility: hidden;
+}
+
+.form-control.ok input {
+	border: 1px solid #0ec469;
+}
+
+.form-control.falla input {
+	border: 1px solid red;
+}
+
+.form-control.falla p {
+	visibility: visible;
+	color: red;
+}
+
+button {
+	width: 100%;
+	padding: 10px 0px;
+	font-family: inherit;
+	font-weight: 500;
+	background: #222dc4;
+	color: #fff;
+	border-style: none;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+
+button:hover {
+	background: #0814c2;
+}
